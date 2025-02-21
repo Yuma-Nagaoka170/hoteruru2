@@ -25,6 +25,10 @@
 			<div th:if="${param.loggedOut}" class="alert alert-info">
 				ログアウトしました。
 			</div>
+			
+			<div th:if = "${successMessage}" class = "alert alert-info">
+				<span th:text = "${successMessage}"></span>
+			</div>
 		</div>
 	</main>
 	
@@ -32,6 +36,6 @@
 	<div th:replace="~{fragment :: footer}"></div>
 </div>
 
-<div th:replace="~{fragment ::scripts}"></div>
+<div th:replace="~{fragment :: scripts}"></div>
 </body>
 </html>

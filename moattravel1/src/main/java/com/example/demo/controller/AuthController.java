@@ -56,6 +56,6 @@ public class AuthController{
 		redirectAttributes.addFlashAttribute("successMessage", "会員登録が完了しました。");
 		
 		  
-		return "redirect:/login";
+		return "redirect:/";
 	}
 }

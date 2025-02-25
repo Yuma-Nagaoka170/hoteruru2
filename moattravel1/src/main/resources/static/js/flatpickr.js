@@ -1,7 +1,7 @@
 let maxDate = new Date();
 maxDate = maxDate.setMonth(maxDate.getMonth() + 3);
 
-flatpickr('#fromCheckinDateToCheckoutDate',{
+flatpickr('#fromCheckinDateToCheckoutDate', {
 mode: "range",
 locale: 'ja',
 minDate: 'today',

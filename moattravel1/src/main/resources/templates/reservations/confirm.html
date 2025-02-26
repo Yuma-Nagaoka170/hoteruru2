@@ -28,7 +28,7 @@
 					<h1 class="mb-4 text-center">予約内容確認</h1>
 					
 					<form method="post" th:action="@{/houses/__${house.getId()}__/reservations/create}" th:object="${reservationRegisterForm}">
-						<div th:objext="${reservationRefisterForm}">
+						<div th:object="${reservationRegisterForm}">
 						<input type="hidden" th:field="*{houseId}">
 						<input type="hidden" th:field="*{userId}">
 						<input type="hidden" th:field="*{checkinDate}">

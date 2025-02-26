@@ -81,7 +81,7 @@ public class AuthController{
 						model.addAttribute("successMessage", successMessage);
 					}else {
 						String errorMessage = "トークンが無効です。";
-						model.addAttribute("errorMessage, errorMessage");
+						model.addAttribute("errorMessage", errorMessage);
 					}
 					
 		

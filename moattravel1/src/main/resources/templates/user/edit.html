@@ -84,7 +84,7 @@
 											</label>
 										</div>
 										<div class="col-md-7">
-											<div th:if="${#fields.hasErrors('address')}" class="text-danger small-mb-2" th:errors="{address}"></div>
+											<div th:if="${#fields.hasErrors('address')}" class="text-danger smallmb-2" th:errors="*{address}"></div>
 											<input type="text" class="form-control" th:field="*{address}" placeholder="東京都千代田区神田練塀町300番地">
 											</div>
 										</div>
